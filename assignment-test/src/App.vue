@@ -14,7 +14,7 @@ const addPlace = (data) => {
 </script>
 
 <template>
-  <div class="flex flex-col font-Roboto">
+  <div class="flex flex-col font-Roboto h-screen">
     <SiteNavigation />
     <SearchInput @place-data="addPlace"/>
     </div>
